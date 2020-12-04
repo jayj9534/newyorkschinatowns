@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Big Data & Visualization Project</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/Mott-Street-Chinatown-outdoor-dining.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>New York's Chinatowns During COVID-19</h1>
+            <span class="subheading">A comparative study on the effects of the pandemic on New York's 3 Chinatowns</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="showcase">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="showcase-head">
+            <img src="img/Headlines-1.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Main Content -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Why this investigation?</h2>
+          <p class="lead">The restaurant industry is essential to New York City’s social and economic fabric. From small, family-owned restaurants and food carts to four-star world-famous establishments, the city abounds with restaurants that offer cuisines from every corner of the globe. And in 2018 more than 60% of NYC restaurant workers were immigrants, 44% were Hispanic and 20% were Asian. Which means the impact of the pandemic on restaurant is a blow to the most vulnerable sectors of society. Disease and outbreaks have long been used to rationalize xenophobia. The pandemic is covid, but the pandemic is also racism.</p>
+        </div>
+
+        <div class="col-lg-10 mx-auto">
+          <h2>Why do we care?</h2>
+          <p class="lead">We're interested in exploring if racist sentiments against Asian and Asian American communities are reflected in Chinese restaurants' resilience in New York City.
+           Our research questions include:</p>
+          <ul>
+            <li>Which Chinatown faces the hardest challenge in restaurant recovery?</li>
+            <li>How are the Chinese restaurants performing compared to other cuisines in the same neighborhoods?</li>
+          </ul>
+        </div>
+</section>
+
+<hr>
+
+<section id="NYCCharts">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Brooklyn</h2>
+            <p class="lead"> In Brooklyn Chinatown, visits to Chinese and other Asian restaurants dropped drastically in the first few weeks after New York City restricted restaurant dine-in. In the week of June 8th, both of them had rebounded to March 16th level. While non-Asian restaurants also faced a drop in visit, they rebounded earlier compared to Asian restaurants and exceeded the March 16th level on June 8th.</p>
+        </div>
+      </div>
+    </div>
+
+  <div id="graph1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class"brooklynGraph">
+          <iframe src="https://thitowisambodhi.github.io/d3/brooklyn.html" width="120%" height="550px" style="border: none;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2>Flushing</h2>
+          <p class="lead"> In Flushing Chinatown, visits to Chinese restaurants dropped drastically in the first few weeks after New York City restricted restaurant dine-in. However, it faced a consistent increase in visit starting in April and eventually had higher visit count compared to the first week of restaurant dine-in restriction. Similarly, other Asian restaurants had a huge drop in the first week yet they managed to reach the visitor count of the early days of restriction. While restaurants of other cuisine did not experience as big of a drop, they had not rebounded as well as Chinese and other Asian restaurants in the week of June 8th.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="graph2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="flushingGraph">
+          <iframe src="https://thitowisambodhi.github.io/d3/flushing.html" width="120%" height="550px" style="border: none;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2>Manhattan</h2>
+          <p class="lead"> In Manhattan Chinatown, Chinese restaurants have the least amount of visits on the Stage 1 reopening compared to other cuisines. Chinese restaurants had the largest drop during the restaurant dine-in restriction followed by non-Asian restaurants and other Asian restaurants. However, non-Asian restaurants experienced irregular gains and losses in visits between the first day of restaurant restriction and the stage 1 reopening.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="graph3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="manhattanGraph">
+          <iframe src="https://thitowisambodhi.github.io/d3/manhattan.html" width="120%" height="550px" style="border: none;" style="position: relative;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+        <!-- Pager -->
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; New York's Chinatowns During Covid-19</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://unpkg.com/intersection-observer"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+  <!-- Scrolly scripts -->
+  <script>
+		ScrollReveal().reveal('.showcase-head',{
+      duration: 2000,
+      origin: 'top',
+      distance: '300px',
+      viewFactor: 0.2,
+      reset: true
+    });
+	</script>
+
+  <script>
+		ScrollReveal().reveal('.brooklynGraph',{
+      duration: 2000,
+      origin: 'top',
+      distance: '300px',
+      viewFactor: 0.2,
+      reset: true
+    });
+	</script>
+
+
+
+</body>
+
+</html>
