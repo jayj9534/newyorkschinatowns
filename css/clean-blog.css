@@ -23,7 +23,6 @@ p a {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -32,19 +31,75 @@ h6 {
   color:orange;
 }
 
-#NYCCharts h2{
+#intro h2{
+  font-weight: bold;
+}
+#intro2 h2{
+  font-weight: bold;
+}
+
+#city h2{
+  font-size: 26px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: black;
+}
+
+#city li{
+  font-weight: bold;
+}
+
+#city b{
+  font-weight: bold;
+}
+
+#city iframe{
+  margin: 10px 0;
+  padding: inherit;
+  border: 0;
+}
+
+#city h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: black;
+}
+#Incidents iframe{
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+#barchart iframe{
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+#intro2 li{
+  font-weight: bold;
+}
+
+#threechinatowns h2{
   font-size: 30px;
-  font-weight: 500
-  margin: 40px 0;
+  color:orange;
 }
 
-#NYCCharts iframe{
-  margin: 40px 0;
+#showcase img{
+  width: 100%;
+  margin-bottom: 0;
+  position: relative;
 }
 
-
-
-
+#conclusion img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
 
 
 a {
@@ -90,11 +145,7 @@ blockquote {
   text-shadow: none;
 }
 
-#showcase img{
-  width: 230%;
-  margin-bottom: 60px;
-  position: relative;
-}
+
 
 img::-moz-selection {
   color: #fff;
@@ -268,7 +319,7 @@ header.masthead .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 30px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lora', 'Times New Roman', serif;
 }
 
 header.masthead .post-heading .meta {
@@ -287,7 +338,7 @@ header.masthead .post-heading .meta a {
     font-size: 55px;
   }
   header.masthead .post-heading .subheading {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 

@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Big Data & Visualization Project</title>
+  <title>Chinatowns of NYC</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,13 +64,122 @@
     </div>
   </header>
 
+  <br><br>
+
   <section id="showcase">
 
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-10 mx-auto">
           <div class="showcase-head">
-            <img src="img/Headlines-1.png">
+            <img src="img/Headlines-2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<br><br>
+  <!-- Main Content -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Why this investigation?</h2>
+          <p class="lead">The restaurant industry is essential to New York City’s social and economic fabric. From small, family-owned restaurants and food carts to four-star world-famous establishments, the city abounds with restaurants that offer cuisines from every corner of the globe. And in 2018 more than 60% of NYC restaurant workers were immigrants, 44% were Hispanic and 20% were Asian. Which means the impact of the pandemic and closure order on restaurants is a blow to the most vulnerable sectors of society.</p>
+        </div>
+
+
+</section>
+
+
+
+<section id="intro2">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Why do we care?</h2>
+          <p class="lead">We're interested in exploring how Chinese restaurants are performing amidst the surge of racist sentiments against Asian and Asian American communities in New York City. Our research questions include:</p>
+          <ul>
+            <li>How are all restaurants performing in the three Chinatowns?</li>
+            <li>How are Chinese restaurants recovering compared to other cuisine groups in New York City?</li>
+            <li>Which Chinatown has the lowest recovery performance for Chinese restaurants?</li>
+            <li>How are Chinese restaurants recovering compared to other cuisines in New York City’s main Chinatowns: Manhattan Chinatown, Sunset Park, and Flushing?</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="city">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2>Methods</h2>
+          <p class="lead"> We are using Safegraph Points of Interest weekly foot traffic data from January to June 2020 to map restaurant locations in Manhattan Chinatown, Sunset Park, and Flushing. Additionally, we map selected anti-Asian incidents from the news. We use two analytical methods to understand restaurants’ performance and resiliency:</p>
+          <ol>
+            <li>Performance: number of open restaurants</li>
+              <ul>We compare the number of open restaurants in January, March, and June to understand their performance in New York City’s Chinatowns before, during, and after the March 17th restaurant closure order by cuisine group: ‘Chinese’, ‘Other Asian’, and ‘Other’. From the Safegraph data, we define ‘closed’ restaurants as restaurants that had 0 visitors for the first 3 weeks of January and March. Due to data limitations, we used the first two weeks of June and last week of May to identify ‘closed’ restaurants in June. In the bubble diagram, we show the counts in March and June as a percentage of January’s count.</ul>
+              <br>
+            <li>Resiliency: weekly foot traffic</li>
+              <ul>We aggregated the weekly foot traffic data in restaurant businesses in New York City’s Chinatowns between the week of March 16th to June 8th 2020 by cuisine group. We show weekly foot traffic data as a percentage of foot traffic in the week of March 16th, using time-series line charts.</ul>
+          </ol>
+      </div>
+    </div>
+  </div>
+
+<br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="showcase-head">
+          <img src="img/Screenshot 2020-12-06 145355 (edit).png" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="rise">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>The rise of Anti-Asian incidents during the pandemic:</h2>
+            <p class="lead">Disease and outbreaks have long been used to rationalize xenophobia. In the map, we locate <b>only a few of the reported anti-Asian incidents reported in New York City</b> in early 2020. The pandemic is covid, but the pandemic is also racism.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <section class="maps">
+    <div id="Incidents">
+        <div class"Incidentsmapping">
+        <iframe src="https://lj146.github.io/Big_Data/index" width="100%" height="700px" style="border: none;"></iframe>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="how">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>How are Chinese restaurants performing during the pandemic?</h2>
+            <h3><b>In the 3 Chinatowns, the number of open restaurants in all cuisine groups dropped in March and started rebounding in June</b>.</h3>
+            <p class>The <a href = "https://www.nrn.com/news/new-york-city-restaurants-must-close-due-coronavirus"> restaurant closure order</a> started on March 17th and the <a href = "https://www.nytimes.com/2020/05/29/nyregion/coronavirus-new-york-live-updates.html">Phase 1 reopening</a> on June 8th might explain this trend. <b>Click the buttons below to see the change!</b></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="howGraph">
+          <iframe src="https://thitowisambodhi.github.io/d3/bar.html" width="100%" height="450px" style="border: none;"></iframe>
           </div>
         </div>
       </div>
@@ -78,82 +187,64 @@
   </section>
 
 
-  <!-- Main Content -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Why this investigation?</h2>
-          <p class="lead">The restaurant industry is essential to New York City’s social and economic fabric. From small, family-owned restaurants and food carts to four-star world-famous establishments, the city abounds with restaurants that offer cuisines from every corner of the globe. And in 2018 more than 60% of NYC restaurant workers were immigrants, 44% were Hispanic and 20% were Asian. Which means the impact of the pandemic on restaurant is a blow to the most vulnerable sectors of society. Disease and outbreaks have long been used to rationalize xenophobia. The pandemic is covid, but the pandemic is also racism.</p>
-        </div>
 
-        <div class="col-lg-10 mx-auto">
-          <h2>Why do we care?</h2>
-          <p class="lead">We're interested in exploring if racist sentiments against Asian and Asian American communities are reflected in Chinese restaurants' resilience in New York City.
-           Our research questions include:</p>
-          <ul>
-            <li>Which Chinatown faces the hardest challenge in restaurant recovery?</li>
-            <li>How are the Chinese restaurants performing compared to other cuisines in the same neighborhoods?</li>
-          </ul>
-        </div>
-</section>
-
-<hr>
-
-<section id="NYCCharts">
-
+<div id="However">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Brooklyn</h2>
-            <p class="lead"> In Brooklyn Chinatown, visits to Chinese and other Asian restaurants dropped drastically in the first few weeks after New York City restricted restaurant dine-in. In the week of June 8th, both of them had rebounded to March 16th level. While non-Asian restaurants also faced a drop in visit, they rebounded earlier compared to Asian restaurants and exceeded the March 16th level on June 8th.</p>
+          <h2>However, Chinese restaurants suffered the largest drop of visitors compared to other cuisines.</h2>
+            <p><b>While restaurants in all cuisine groups show signals of recovery in June, Chinese restaurants suffered the largest drop in visitors in the first four weeks of restaurant closure order</b>. Chinese restaurants continued to have a stable growth, similar to other cuisine groups. In June, all cuisine groups have relatively reached pre-restaurant closure visitor level, however, <b>Chinese restaurants still had the lowest recovery rate compared to other cuisine groups.</b> <b>Hover over the chart below to see more information!</b></p>
         </div>
       </div>
     </div>
 
-  <div id="graph1">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <div class"brooklynGraph">
-          <iframe src="https://thitowisambodhi.github.io/d3/brooklyn.html" width="120%" height="550px" style="border: none;"></iframe>
+          <div class"howeverGraph">
+          <iframe src="https://thitowisambodhi.github.io/d3/nyc.html" width="120%" height="550px" style="border: none;"></iframe>
           </div>
         </div>
       </div>
     </div>
-  </div>
+</div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <h2>Flushing</h2>
-          <p class="lead"> In Flushing Chinatown, visits to Chinese restaurants dropped drastically in the first few weeks after New York City restricted restaurant dine-in. However, it faced a consistent increase in visit starting in April and eventually had higher visit count compared to the first week of restaurant dine-in restriction. Similarly, other Asian restaurants had a huge drop in the first week yet they managed to reach the visitor count of the early days of restriction. While restaurants of other cuisine did not experience as big of a drop, they had not rebounded as well as Chinese and other Asian restaurants in the week of June 8th.</p>
-      </div>
-    </div>
-  </div>
-
-  <div id="graph2">
+<div id="in">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <div class="flushingGraph">
-          <iframe src="https://thitowisambodhi.github.io/d3/flushing.html" width="120%" height="550px" style="border: none;"></iframe>
+          <h2>In the 3 Chinatowns, Chinese restaurants in Manhattan Chinatown are the least recovered.</h2>
+            <p><b>Chinese restaurants in Manhattan’s Chinatown are the least recovered compared to Sunset Park in Brooklyn and Flushing in Queens.</b> Only in Manhattan where the number of open Chinese restaurants in June is fewer than in March. <b>Click the buttons below to see the animation!</b></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="circlechart">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="chinatowncircle">
+          <iframe src="https://thitowisambodhi.github.io/d3/circles.html" width="900" height="450" style="border: none;"></iframe>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    </div>
+</div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <h2>Manhattan</h2>
-          <p class="lead"> In Manhattan Chinatown, Chinese restaurants have the least amount of visits on the Stage 1 reopening compared to other cuisines. Chinese restaurants had the largest drop during the restaurant dine-in restriction followed by non-Asian restaurants and other Asian restaurants. However, non-Asian restaurants experienced irregular gains and losses in visits between the first day of restaurant restriction and the stage 1 reopening.</p>
+
+<section id="boro">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Chinese restaurants in Manhattan are the least recovered compared to other cuisine groups.</h2>
+            <p class="lead"><b>Chinese restaurants suffered the biggest blow and recovered the least compared to other cuisine groups.</b> Other Asian and non-Asian restaurants have reached pre-restaurant closure visitor count. Interestingly, non-Asian restaurants experienced irregular gain and loss patterns, where it peaked in the week of May 25th. <b>Hover over the chart below to see more information!</b></p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div id="graph3">
+
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
@@ -163,56 +254,111 @@
         </div>
       </div>
     </div>
-  </div>
 
-</section>
+    <section class="maps">
+      <div id="manhattan">
+          <div class"manhattanmapping">
+          <iframe src="https://lj146.github.io/Big_Data/index_M" width="100%" height="550px" style="border: none;"></iframe>
+          </div>
+      </div>
+    </section>
 
-<section class="charts">
+
+
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h2>NYC-wide 3 cuisines line chart</h2>
-          <p class="lead"> placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder.</p>
+        <h2>Chinese restaurants in Sunset Park are also the least recovered compared to other cuisine groups.</h2>
+          <p><b>Though the difference is slim, Chinese restaurants in Brooklyn Chinatown recovered the least compared to other cuisine groups</b>. Despite the stable recovery rate for all three cuisine groups after the first week of April, only non-Asian restaurants that have reached beyond pre-restaurant closure visitor count. <b>Hover over the chart below to see more information!</b></p>
       </div>
     </div>
   </div>
 
-  <div id="linechart">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="brookylnGraph">
+          <iframe src="https://thitowisambodhi.github.io/d3/brooklyn.html" width="120%" height="550px" style="border: none;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="maps">
+      <div id="brooklyn">
+          <div class"brooklynmapping">
+          <iframe src="https://lj146.github.io/Big_Data/index_B" width="100%" height="550px" style="border: none;"></iframe>
+          </div>
+      </div>
+    </section>
+
+
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <div class"brooklynGraph">
-        <iframe src="https://thitowisambodhi.github.io/d3/nyc.html" width="120%" height="550px" style="border: none;"></iframe>
+        <h2>However, Chinese restaurants are thriving in Flushing!</h2>
+          <p><b>Chinese restaurants are recovering well in Flushing, despite the large drop they experienced in the beginning of restaurant closure order</b>. In fact, only Chinese and Asian restaurants that are reaching pre-restaurant closure order visit count. While non-Asian restaurants suffered the least blow during the restaurant closure order, their recovery rate is not as high as Chinese and Asian restaurants. <b>Hover over the chart below to see more information!</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="flushingGraph">
+        <iframe src="https://thitowisambodhi.github.io/d3/flushing.html" width="120%" height="550px" style="border: none;"></iframe>
         </div>
       </div>
     </div>
   </div>
-  </div>
 
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <h2>Bar chart with buttons</h2>
-          <p class="lead"> placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder.</p>
-      </div>
+  <section class="maps">
+    <div id="flushing">
+        <div class"flushingmapping">
+        <iframe src="https://lj146.github.io/Big_Data/index_F" width="100%" height="550px" style="border: none;"></iframe>
+        </div>
     </div>
-  </div>
+  </section>
 
-  <div id="barchart">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class"brooklynGraph">
-        <iframe src="https://thitowisambodhi.github.io/d3/bar.html" width="120%" height="550px" style="border: none;"></iframe>
+</section>
+
+<br><br>
+<br><br>
+
+<section id="conclusion">
+
+  <section id="showcase">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="conclude">
+            <img src="img/1920x0.jpg">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
+  </section>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2>Conclusion: How are Chinese restaurants recovering compared to other cuisines?</h2>
+          <p>While at the city level Chinese restaurants in New York City’s main Chinatowns seem to recover as well as other cuisine groups, a comparative study between the neighborhood uncovers the finer difference. The difference could be attributed to many things, such as different neighborhood characteristics, demographic make-up, transit availability, food delivery service presence, restaurants’ offerings’ suitability to take-out, and perhaps sentiment against Asian and Asian-American communities. Since this study does not draw a causal relationship between restaurants’ performance and those potential factors, future research can dig deeper to inform policies surrounding small businesses and anti-racism.</p>
+      </div>
+    </div>
+  </div>
 
 </section>
+
+
+</div>
+
+
+
+
+
+
 
         <!-- Pager -->
 
@@ -267,14 +413,15 @@
 	</script>
 
   <script>
-		ScrollReveal().reveal('.brooklynGraph',{
+		ScrollReveal().reveal('.conclude',{
       duration: 2000,
-      origin: 'top',
+      origin: 'bottom',
       distance: '300px',
       viewFactor: 0.2,
       reset: true
     });
 	</script>
+
 
 
 
