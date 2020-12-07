@@ -23,7 +23,6 @@ p a {
 
 h1,
 h2,
-h4,
 h5,
 h6 {
   font-weight: 500;
@@ -72,6 +71,14 @@ h6 {
   left:0px;
 }
 
+#circlechart iframe{
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  padding: 0;
+}
+
 #barchart iframe{
   top:0px;
   right:0px;
@@ -101,6 +108,21 @@ h6 {
   position: relative;
 }
 
+#sss h4{
+  font-size: 14px;
+  color:grey;
+}
+
+
+.maps {
+  text-align: center;
+}
+
+.equation{
+  text-align: center;
+  margin: 30px;
+
+}
 
 a {
   color: #212529;
@@ -455,6 +477,10 @@ footer .copyright {
   font-size: 14px;
   margin-bottom: 0;
   text-align: center;
+}
+
+footer .h4{
+  font-size: 14px;
 }
 
 .btn {
