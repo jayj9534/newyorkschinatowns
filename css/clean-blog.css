@@ -41,7 +41,7 @@ h6 {
   font-size: 26px;
   font-weight: bold;
   margin: 40px 0;
-  color: black;
+  color: orange;
 }
 
 #city li{
@@ -62,7 +62,7 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   margin: 40px 0;
-  color: black;
+
 }
 #Incidents iframe{
   top:0px;
@@ -108,14 +108,28 @@ h6 {
   position: relative;
 }
 
+#conclusion h2{
+  font-size: 26px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: orange;
+}
+
 #sss h4{
   font-size: 14px;
   color:grey;
 }
 
+.title{
+  font-size: 26px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: black;
+}
 
 .maps {
   text-align: center;
+
 }
 
 .equation{
@@ -123,6 +137,8 @@ h6 {
   margin: 30px;
 
 }
+
+
 
 a {
   color: #212529;
