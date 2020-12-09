@@ -31,14 +31,16 @@ h6 {
 }
 
 #intro h2{
+  font-size: 30px;
   font-weight: bold;
 }
 #intro2 h2{
+  font-size: 30px;
   font-weight: bold;
 }
 
 #city h2{
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   margin: 40px 0;
   color: orange;
@@ -58,10 +60,12 @@ h6 {
   border: 0;
 }
 
-#city h3{
-  font-size: 20px;
+#city h4{
+  font-size: 22px;
   font-weight: bold;
   margin: 40px 0;
+  color: black;
+}
 
 }
 #Incidents iframe{
@@ -109,7 +113,7 @@ h6 {
 }
 
 #conclusion h2{
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   margin: 40px 0;
   color: orange;
